@@ -2,8 +2,8 @@
   "name": "primeng-playground",
   "version": "0.0.1",
   "scripts": {
-    "start": "ng serve --verbose=true -o",
-    "build": "ng build --verbose=true",
+    "start": "ng serve -o",
+    "build": "ng build",
     "reinstall": "rm -rf dist && rm -rf node_modules && rm -rf package-lock.json && npm i && ng build",
     "test": "ng test",
     "lint": "ng lint",
